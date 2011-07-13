@@ -1,0 +1,203 @@
+@import url('yui-reset.css');
+
+/* ---- page ---- */
+html, body {
+ margin: 0;
+ padding: 0;
+ background: #000;
+ color: #AAA;
+ font-family: tahoma, sans-serif;
+}
+/* ---- */
+
+/* ---- links ---- */
+a, a:visited {
+ color: #AAA;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #FFF;
+}
+/* ---- */
+
+/* ---- layout ---- */
+#content-wrapper {
+ padding: 60px 0 60px 0;
+}
+
+div.content {
+ background: #262626;
+ border: 1px solid #444;
+}
+
+div.content-centered {
+ margin: 15px auto 10px auto;
+ padding: 5px;
+}
+
+span.content-title {
+ font-family: Palatino, "Times New Roman", serif;
+ font-weight: bold;
+ font-size: 36px;
+ color: #A7FA31;
+}
+
+ul.horizontal {
+ margin: 5px;
+}
+
+ul.horizontal li {
+ display: inline;
+}
+
+.highlight {
+ margin: 8px;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+div.tirtle-value-wrapper {
+ text-align: center;
+ margin: 10px;
+}
+
+span.tirtle-value {
+ display: inline-block;
+ background: #A7FA31;
+ color: #333;
+ font-weight: bold;
+ font-size: 60px;
+ padding: 2px 30px 2px 30px;
+ -webkit-border-radius: 10px 0 10px 0; 
+ -moz-border-radius: 10px 0 10px 0;  
+ border-radius: 10px 0 10px 0; 
+}
+/* ---- */
+
+/* ---- buttons ---- */
+div.button-box {
+ clear: both;
+ text-align: center;
+}
+
+.button {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px;
+    color: #262626;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #AAA;
+    border: solid 1px #7bb527;
+    background: #A7FA31;
+    background: -webkit-gradient(linear, left top, left bottom, from(#A7FA31), to(#7bb527));
+    background: -moz-linear-gradient(top,  #A7FA31,  #7bb527);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7FA31', endColorstr='#7bb527');
+}
+
+a.button:visited {
+ color: #262626;
+}
+
+.button:hover {
+    color: #FFF;
+    text-shadow: 1px 1px 0 #262626;
+    background: #7bb527;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7bb527), to(#56801c));
+    background: -moz-linear-gradient(top,  #7bb527,  #56801c);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7bb527', endColorstr='#56801c');
+}
+
+a.button:hover {
+ color: #FFF;
+}
+
+.button-big {
+ font-size: 24px;
+ padding: 15px 20px 15px 20px;
+}
+/* ---- */
+
+/* ---- forms ---- */
+
+form {
+ margin: 10px 10px 5px 10px;
+}
+
+form .button {
+ margin: 10px 0 0 0;
+}
+
+form th {
+ padding-right: 10px;
+}
+
+dd label {
+ font-weight: bold;
+}
+
+input {
+ border: 2px solid #AAA;
+ /*background: #FFF url(/assets/graphics/input_gradient.png) 0 0 repeat-x;*/
+ color: #333;
+}
+
+input:focus {
+ border-color: #A7FA31;
+}
+
+input.long {
+ width: 575px;
+}
+
+.error {
+ color: #ff0000;
+}
+
+/* ---- */
+
+/* ---- header ---- */
+#header {
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 0;
+ margin: 0;
+ padding: 0;
+ background: #262626;
+ border-bottom: 1px solid #444;
+}
+/* ---- */
+
+/* ---- footer ---- */
+#footer {
+ position: fixed;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ height: 26px;
+ background: #262626;
+ border-top: 1px solid #444;
+}
+/* ---- */
+
+/* ---- splash screen ---- */
+#splash {
+ width: 600px;
+}
+
+#splash ul {
+ float: right;
+}
+/* ---- */
