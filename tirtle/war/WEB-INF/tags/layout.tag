@@ -22,9 +22,9 @@
       <ul class="horizontal" style="float: right">
         <li><a href="<c:url value="/random/" />">random tirtle</a></li>
         <li>|</li>
-        <li><a href="">about</a></li>
+        <li><a href="http://www.limscoder.com/2011/07/tirtle-spring-web-mvc-project-running.html">about</a></li>
         <li>|</li>
-        <li><a href="">source</a></li>
+        <li><a href="https://github.com/limscoder/tirtle">source</a></li>
       </ul>
     </div>
   </body>

@@ -5,3 +5,5 @@ TODO:
 history graph
 public pages
 random public pages
+REST API
+Refactor to use Spring Security
